@@ -8,9 +8,9 @@ export default class HornedList extends Component {
         return(
             <ul className="horned-item">
                 {
-                    images.map(image => {
+                    images.map(card => {
                        return (
-                           <HornedItem horny = {image}/>
+                           <HornedItem horny = {card}/>
                        )
 
                     })
